@@ -45,6 +45,7 @@
     {"id":{"name":"spr_menu_bg","path":"sprites/spr_menu_bg/spr_menu_bg.yy",},"order":0,},
     {"id":{"name":"font_score","path":"fonts/font_score/font_score.yy",},"order":0,},
     {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},"order":0,},
+    {"id":{"name":"spr_search","path":"sprites/spr_search/spr_search.yy",},"order":0,},
     {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},"order":0,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":0,},

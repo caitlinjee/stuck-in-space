@@ -3,6 +3,6 @@
 
 // set direction of bullet
 direction = point_direction(x, y, mouse_x, mouse_y);
-direction = direction + random_range(-4, 4); // give bullets spread
-speed = 16;
+direction = direction + random_range(-5, 5); // give bullets spread
+speed = 20;
 image_angle = direction;

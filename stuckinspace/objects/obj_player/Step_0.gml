@@ -3,16 +3,16 @@
 
 // move when arrow keys are pressed down
 if (keyboard_check(ord("D"))) {
-	x = x + 4;
+	x = x + 8;
 }
 if (keyboard_check(ord("A"))) {
-	x = x - 4;
+	x = x - 8;
 }
 if (keyboard_check(ord("W"))) {
-	y = y - 4;
+	y = y - 8;
 }
 if (keyboard_check(ord("S"))) {
-	y = y + 4;
+	y = y + 8;
 }
 
 // points sprite image angle towards the mouse
@@ -21,8 +21,14 @@ image_angle = point_direction(x, y, mouse_x, mouse_y);
 //shooting when click
 if (mouse_check_button(mb_left) && (cooldown < 1)) {
 	instance_create_layer(x, y, "Bullets_Layer", obj_bullet);
-	cooldown = 10;
+	cooldown = 25;
 }
+
+cooldown = cooldown - 1;
+
+// player cant move past screen border
+x = clamp(x, 0, 2048);
+y = clamp(y, 0, 1536);
 
 // shooting with arrow keys
 /*if (keyboard_check(vk_right) && (cooldown < 1)) {
@@ -49,7 +55,3 @@ if (keyboard_check(vk_down) && (cooldown < 1)) {
     }
 	cooldown = 10;
 }*/
-
-
-
-cooldown = cooldown - 1;

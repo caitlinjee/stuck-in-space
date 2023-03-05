@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-spawnrate = 60; // enemy spawn speed
+spawnrate = 100; // enemy spawn speed
+num_enemies = 10;
 alarm[0] = spawnrate;

@@ -3,7 +3,7 @@
 
 // minus hp when hit enemy
 with (other) {
-    hp = hp - 1;
+    current_hp = current_hp - 1;
 }
 
 instance_destroy();

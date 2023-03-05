@@ -26,6 +26,7 @@
     {"name":"obj_bullet","order":1,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"spr_menu_bg","order":4,"path":"sprites/spr_menu_bg/spr_menu_bg.yy",},
     {"name":"spr_bg","order":3,"path":"sprites/spr_bg/spr_bg.yy",},
+    {"name":"spr_search","order":6,"path":"sprites/spr_search/spr_search.yy",},
     {"name":"obj_score","order":3,"path":"objects/obj_score/obj_score.yy",},
     {"name":"spr_enemy","order":2,"path":"sprites/spr_enemy/spr_enemy.yy",},
   ],
