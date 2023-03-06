@@ -3,4 +3,4 @@
 
 max_hp = 5;
 current_hp = max_hp;
-spd = 2.5;
+spd = 3.5;

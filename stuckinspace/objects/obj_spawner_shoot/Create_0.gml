@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-max_hp = 5;
-current_hp = max_hp;
-spd = 2.5;
-
+spawnrate = 100; // enemy spawn speed
+num_enemies = 10;
+alarm[0] = spawnrate;

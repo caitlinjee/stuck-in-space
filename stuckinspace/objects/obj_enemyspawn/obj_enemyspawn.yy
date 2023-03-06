@@ -28,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_enemy_chase",
-    "path": "sprites/spr_enemy_chase/spr_enemy_chase.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
