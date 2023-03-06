@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_search",
-  "bbox_bottom": 59,
-  "bbox_left": 4,
-  "bbox_right": 60,
-  "bbox_top": 4,
+  "name": "spr_bullet_enemy",
+  "bbox_bottom": 56,
+  "bbox_left": 14,
+  "bbox_right": 53,
+  "bbox_top": 17,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"db8bed36-16ad-4f78-87cc-884ffba7aaad",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b3f46cb7-dba1-4129-a702-9139ef4cffad",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f0c599ff-8045-4e4d-a521-a43bd5a753e5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a2b156a0-34e9-42ac-99fb-d37f2dd46deb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_search",
+    "name": "spr_bullet_enemy",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"db8bed36-16ad-4f78-87cc-884ffba7aaad","path":"sprites/spr_search/spr_search.yy",},},},"Disabled":false,"id":"ffafedb9-39d7-45c7-97eb-99f549c88682","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b3f46cb7-dba1-4129-a702-9139ef4cffad","path":"sprites/spr_bullet_enemy/spr_bullet_enemy.yy",},},},"Disabled":false,"id":"b40d1ae9-22f6-4e3c-9f25-fe126c8440da","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

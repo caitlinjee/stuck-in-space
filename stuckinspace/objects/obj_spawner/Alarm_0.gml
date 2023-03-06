@@ -5,8 +5,8 @@
 
 //spawn at random of 2 spawn points
 rand = random(10);
-x = rand > 5 ? 0 : 1735;
-y = rand > 5 ? 0 : 315;
+x = rand > 5 ? 275 : 1735;
+y = rand > 5 ? 340 : 315;
 
 if (num_enemies > 0) {
 	instance_create_layer(x, y, "Enemy_Layer", obj_enemyspawn);
