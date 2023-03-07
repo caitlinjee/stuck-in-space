@@ -9,10 +9,13 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "enemies",
+    "path": "folders/Objects/enemies.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_spawner",
+    "path": "objects/obj_spawner/obj_spawner.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
