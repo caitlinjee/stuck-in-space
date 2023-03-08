@@ -46,7 +46,7 @@ depth = -bbox_bottom;
 shootKey = mouse_check_button(mb_left);
 if (shootKey) && (cooldown < 1) {
 	instance_create_layer(x, y, "Bullets_Layer", obj_bullet);
-	cooldown = 20;
+	cooldown = 15;
 }
 
 cooldown = cooldown - 1;

@@ -3,7 +3,7 @@
 
 max_hp = 5;
 current_hp = max_hp;
-spd = 2.5;
+spd = 1.5;
 
 cooldown = 0; //irandom(x)
 damage = 1;
