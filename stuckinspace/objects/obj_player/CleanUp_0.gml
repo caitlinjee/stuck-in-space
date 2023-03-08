@@ -4,4 +4,4 @@
 // You can write your code in this editor
 
 // remove dmg list
-ds_list_destroy(damage_list);
+//ds_list_destroy(damage_list);

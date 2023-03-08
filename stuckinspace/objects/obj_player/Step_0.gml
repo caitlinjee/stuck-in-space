@@ -53,7 +53,7 @@ cooldown = cooldown - 1;
 #endregion
 
 //calc damage
-get_damage(obj_damage_player);
+get_damage(obj_damage_player, true);
 
 // old code
 #region
