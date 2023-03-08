@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemy_tank",
+  "name": "obj_bullet_tank",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -9,12 +9,12 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "enemies",
-    "path": "folders/Objects/enemies.yy",
+    "name": "bullets",
+    "path": "folders/Objects/bullets.yy",
   },
   "parentObjectId": {
-    "name": "obj_enemy",
-    "path": "objects/obj_enemy/obj_enemy.yy",
+    "name": "obj_damage_player",
+    "path": "objects/obj_damage_player/obj_damage_player.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_enemy_tank",
-    "path": "sprites/spr_enemy_tank/spr_enemy_tank.yy",
+    "name": "spr_bullet_tank",
+    "path": "sprites/spr_bullet_tank/spr_bullet_tank.yy",
   },
   "spriteMaskId": null,
   "visible": true,

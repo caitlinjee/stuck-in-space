@@ -12,7 +12,9 @@ dir = direction; //0;
 spd = 5;
 xspd = 0;
 yspd = 0;
+
+damage = global.weapon_list.original_weapon.damage;
+
+// cleanup
 maxDist = 1000;
 destroy = false;
-
-damage = 1;

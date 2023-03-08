@@ -5,6 +5,7 @@ max_hp = 15;
 current_hp = max_hp;
 spd = 0.5;
 
+cooldown = 0; //irandom(x)
 damage = 1;
 state = 0;
 

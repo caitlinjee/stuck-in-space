@@ -10,3 +10,4 @@ moveDir = 0;
 moveSpd = 10;
 xspd = 0;
 yspd = 0;
+
