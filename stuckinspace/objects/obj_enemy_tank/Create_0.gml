@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-max_hp = 15;
+event_inherited();
+
+max_hp = 10;
 current_hp = max_hp;
 spd = 0.5;
 

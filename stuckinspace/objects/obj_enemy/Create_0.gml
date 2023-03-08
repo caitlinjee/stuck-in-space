@@ -14,4 +14,4 @@ collisions = false;
 getDamage = false;
 
 // create dmg list
-// damageList = ds_list_create();
+damage_list = ds_list_create();

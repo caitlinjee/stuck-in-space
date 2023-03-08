@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// move towards player
+
 #region
 /*if (instance_exists(obj_player)) {
 	move_towards_point(obj_player.x, obj_player.y, spd);	
@@ -33,6 +33,8 @@ if !place_meeting(x, y, obj_wall) {
 	getDamage = true;
 }
 
+// move towards player
+#region
 if (instance_exists(obj_player)) {
 	dir = point_direction( x, y, obj_player.x, obj_player.y );
 	
@@ -55,7 +57,7 @@ if (instance_exists(obj_player)) {
 	x += xspd;
 	y += yspd;
 }
-	
+
 #endregion
 
 //image_angle = direction;
