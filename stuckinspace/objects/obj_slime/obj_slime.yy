@@ -15,8 +15,8 @@
     "path": "folders/Objects/obstacles.yy",
   },
   "parentObjectId": {
-    "name": "obj_enemy",
-    "path": "objects/obj_enemy/obj_enemy.yy",
+    "name": "obj_damage_player",
+    "path": "objects/obj_damage_player/obj_damage_player.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

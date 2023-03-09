@@ -24,10 +24,10 @@ if (cooldown < 1) {
 			with instance_create_layer(x, y, "Bullets_Layer", obj_bullet_tank) 
 			{
 			   direction = point_direction(x, y, obj_player.x, obj_player.y) - _spread/2 + _spread_div * i; // Give the bullet a direction
-			   speed = 10;
+			   speed = 8;
 			}
 		}
-		cooldown = 100;
+		cooldown = 150;
 	}
 } else if bbox_right > _camLeft && bbox_left < _camRight && bbox_bottom >_camTop && bbox_top <_camBottom {
 	//only add to timer if onscreen

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemyspawn_tank",
+  "name": "del4",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
@@ -12,8 +12,8 @@
     "path": "folders/Objects/enemies.yy",
   },
   "parentObjectId": {
-    "name": "obj_enemyspawn",
-    "path": "objects/obj_enemyspawn/obj_enemyspawn.yy",
+    "name": "del1",
+    "path": "objects/del1/del1.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

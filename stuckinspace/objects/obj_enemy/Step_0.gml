@@ -2,25 +2,34 @@
 // You can write your code in this editor
 
 
-
+var _wallcollisions = true;
+var _getdamage = true;
 
 //state machine
 switch (state) {
-	/*case -1:
+	case -1:
+		// spawn state
 		
 		if image_alpha < 1 {
 			spd = 0;
-			image_alpha += 0.2;
+			image_alpha += fadeSpd;
 		}
 		
 		//walk out of spawn
-		_collisions = false;
-		_getDamage = false;
-		if image_alpha > 1 {
-			spd = 2.5;
+		_wallcollisions = false;
+		_getdamage = false;
+		
+		if image_alpha >= 1 {
+			spd = emergeSpd;
 			dir = 270;
 		}
-		break;*/
+		
+		if !place_meeting(x, y, obj_wall) {
+			state = 0;
+		}
+		
+		break;
+		
 	case 0 :
 		// normal behavior
 		if (instance_exists(obj_player)) {
@@ -28,11 +37,6 @@ switch (state) {
 		}
 	
 		break;
-}
-
-if !place_meeting(x, y, obj_wall) {
-	collisions = true;
-	getDamage = true;
 }
 
 // move towards player
@@ -43,15 +47,28 @@ xspd = lengthdir_x( spd, dir );
 yspd = lengthdir_y( spd, dir ); 
 
 //collision
-if (collisions == true) {
-	if place_meeting( x + xspd, y, obj_wall) || place_meeting( x + xspd, y, obj_enemy) {
+#region
+//wall
+if (_wallcollisions == true) {
+	if place_meeting( x + xspd, y, obj_wall) {
 		xspd = 0;
 	}
 
-	if place_meeting( x, y + yspd, obj_wall) || place_meeting( x, y + yspd, obj_enemy) {
+	if place_meeting( x, y + yspd, obj_wall) {
 		yspd = 0;
 	}
 }
+
+//enemy
+if place_meeting( x + xspd, y, obj_enemy) {
+	xspd = 0;
+}
+
+if place_meeting( x, y + yspd, obj_enemy) {
+	yspd = 0;
+}
+
+#endregion
 
 //moving
 x += xspd;
@@ -65,18 +82,18 @@ depth = -y;
 //image_angle = direction;
 
 //receive damage
-if (getDamage == true) {
+if (_getdamage == true) {
 	get_damage(obj_damage_enemy);
 }
 
 // if die then die
 #region
 if ((current_hp) <= 0) {
-	with(obj_score) {
-		thescore = thescore + 5;
-	}
+	global.thescore = global.thescore + 5;
+	
 	//audio_sound_pitch(snd_death, random_range(0.8, 1.2));
 	//audio_play_sound(snd_death, 1, false);
+	global.enemyKillCount++;
 	instance_destroy();
 }
 #endregion

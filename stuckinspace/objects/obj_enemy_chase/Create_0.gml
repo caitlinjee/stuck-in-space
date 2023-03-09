@@ -7,6 +7,7 @@ event_inherited();
 max_hp = 3;
 current_hp = max_hp;
 spd = 2.5;
+emergeSpd = spd;
 
 damage = 1;
 state = 0;

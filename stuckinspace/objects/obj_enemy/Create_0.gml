@@ -9,10 +9,20 @@ xspd = 0;
 yspd = 0;
 
 // state machine
-state = 0;
+//state = 0;
 
-collisions = false;
-getDamage = false;
+//spawn
+fadeSpd = 1/15;
+emergeSpd = 2.5;
+
+
+
+global.totalEnemies++;
+
+
+
+/*collisions = false;
+getDamage = false;*/
 
 // create dmg list
 damage_list = ds_list_create();
