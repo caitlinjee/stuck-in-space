@@ -1,3 +1,3 @@
-target_x = 130;
-target_y = 640;
-target_rm = lvl3;
+	global.maxChasers = 8; //13
+	global.maxShooters = 7; // 10
+	global.maxTanks = 5; // 7
