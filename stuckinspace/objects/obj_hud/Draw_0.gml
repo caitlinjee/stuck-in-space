@@ -10,5 +10,7 @@ var _camY = camera_get_view_y( view_camera[0]);
 /*var _hpString = "HP: " + string (playerHp) + "/" + string (playerMaxHp);
 draw_text(_camX, _camY, _hpString );*/
 
-draw_healthbar(_camX + 50, _camY + 50, _camX + 500, _camY + 100, 100* playerHp / playerMaxHp, 
-	c_black, c_red, c_green, 0, true, true);
+if instance_exists(obj_player) {
+	draw_healthbar(_camX + 50, _camY + 50, _camX + 500, _camY + 100, 100* playerHp / playerMaxHp, 
+		c_black, c_red, c_green, 0, true, true);
+}

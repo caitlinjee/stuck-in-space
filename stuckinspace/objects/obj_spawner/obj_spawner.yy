@@ -12,7 +12,10 @@
     "name": "enemies",
     "path": "folders/Objects/enemies.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_solid_wall",
+    "path": "objects/obj_solid_wall/obj_solid_wall.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
