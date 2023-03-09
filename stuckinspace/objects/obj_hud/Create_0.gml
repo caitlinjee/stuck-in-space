@@ -13,7 +13,7 @@ global.maxChasers = 4;
 global.maxShooters = 3;
 global.maxTanks = 2;
 
-global.enemyRoomMax = global.maxChasers + global.maxShooters + global.maxTanks; //total
+global.enemyRoomMax = 3;//global.maxChasers + global.maxShooters + global.maxTanks; //total
 global.activeEnemyMax = 4; // at once
 global.totalEnemies = 0; //spawned
 global.enemyKillCount = 0;
