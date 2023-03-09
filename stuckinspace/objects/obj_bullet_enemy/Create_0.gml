@@ -15,3 +15,5 @@ maxDist = 1000;
 destroy = false;
 
 damage = 1;
+hitConfirm = false;
+enemy_destroy = true;

@@ -33,8 +33,22 @@ function get_damage(_damaged_obj, _iframes = false) {
 	
 	if _iframes == true && iframeTimer > 0 {
 		iframeTimer--;
+		
+		if iframeTimer mod 5 == 0{
+			if image_alpha == 1 {
+				image_alpha = 0;
+			} else {
+				image_alpha = 1;
+			}
+		}
+		
+		current_hp = clamp(current_hp, 0, max_hp);
+		
 		exit;
 	}
+	
+	if _iframes == true {image_alpha = 1;} // mkae sure stop blinking
+
 	
 	//receive damage
 	if place_meeting( x, y, _damaged_obj) {
@@ -93,5 +107,7 @@ function get_damage(_damaged_obj, _iframes = false) {
 			}
 		}
 	}
+	
+	current_hp = clamp(current_hp, 0, max_hp);
 	
 }

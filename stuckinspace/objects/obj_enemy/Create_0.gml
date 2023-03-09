@@ -8,6 +8,7 @@ dir = 0;
 xspd = 0;
 yspd = 0;
 
+// state machine
 state = 0;
 
 collisions = false;

@@ -2,16 +2,11 @@
 // You can write your code in this editor
 
 
-#region
-/*if (instance_exists(obj_player)) {
-	move_towards_point(obj_player.x, obj_player.y, spd);	
-}*/
-
 
 
 //state machine
-/*switch (state) {
-	case -1:
+switch (state) {
+	/*case -1:
 		
 		if image_alpha < 1 {
 			spd = 0;
@@ -25,8 +20,15 @@
 			spd = 2.5;
 			dir = 270;
 		}
+		break;*/
+	case 0 :
+		// normal behavior
+		if (instance_exists(obj_player)) {
+			dir = point_direction( x, y, obj_player.x, obj_player.y );
+		}
+	
 		break;
-}*/
+}
 
 if !place_meeting(x, y, obj_wall) {
 	collisions = true;
@@ -35,28 +37,28 @@ if !place_meeting(x, y, obj_wall) {
 
 // move towards player
 #region
-if (instance_exists(obj_player)) {
-	dir = point_direction( x, y, obj_player.x, obj_player.y );
-	
-	//getting the speeds
-	xspd = lengthdir_x( spd, dir );
-	yspd = lengthdir_y( spd, dir ); 
 
-	//collision
-	if (collisions == true) {
-		if place_meeting( x + xspd, y, obj_wall) || place_meeting( x + xspd, y, obj_enemy) {
-			xspd = 0;
-		}
+//getting the speeds
+xspd = lengthdir_x( spd, dir );
+yspd = lengthdir_y( spd, dir ); 
 
-		if place_meeting( x, y + yspd, obj_wall) || place_meeting( x, y + yspd, obj_enemy) {
-			yspd = 0;
-		}
+//collision
+if (collisions == true) {
+	if place_meeting( x + xspd, y, obj_wall) || place_meeting( x + xspd, y, obj_enemy) {
+		xspd = 0;
 	}
 
-	//moving
-	x += xspd;
-	y += yspd;
+	if place_meeting( x, y + yspd, obj_wall) || place_meeting( x, y + yspd, obj_enemy) {
+		yspd = 0;
+	}
 }
+
+//moving
+x += xspd;
+y += yspd;
+
+// depth
+depth = -y;
 
 #endregion
 
@@ -77,4 +79,11 @@ if ((current_hp) <= 0) {
 	//audio_play_sound(snd_death, 1, false);
 	instance_destroy();
 }
+#endregion
+
+//old code
+#region
+/*if (instance_exists(obj_player)) {
+	move_towards_point(obj_player.x, obj_player.y, spd);	
+}*/
 #endregion

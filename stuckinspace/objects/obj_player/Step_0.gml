@@ -55,6 +55,17 @@ cooldown = cooldown - 1;
 //calc damage
 get_damage(obj_damage_player, true);
 
+//rip 
+if current_hp <= 0 {
+	
+	//create the game over object
+	instance_create_depth (0, 0, -10000, obj_game_over);
+	
+	//destroy ourself 
+	instance_destroy();
+	exit;
+}
+
 // old code
 #region
 // player cant move past screen border

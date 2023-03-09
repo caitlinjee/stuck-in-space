@@ -9,6 +9,10 @@ y += yspd;
 
 //cleanup
 
+if hitConfirm == true && enemy_destroy == true{
+	destroy = true;
+}
+
 //destroy (put on top cause race condition w enemy)
 if destroy == true {
 	// bullet destroy animation
