@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "gamemanager",
-    "path": "folders/Objects/gamemanager.yy",
+    "name": "todelete",
+    "path": "folders/Objects/todelete.yy",
   },
   "parentObjectId": null,
   "persistent": false,
