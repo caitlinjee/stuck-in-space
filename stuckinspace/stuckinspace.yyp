@@ -103,6 +103,7 @@
     {"id":{"name":"spr_enemy_shoot","path":"sprites/spr_enemy_shoot/spr_enemy_shoot.yy",},"order":0,},
     {"id":{"name":"obj_spawner_tank","path":"objects/obj_spawner_tank/obj_spawner_tank.yy",},"order":0,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"obj_next_arrow","path":"objects/obj_next_arrow/obj_next_arrow.yy",},"order":0,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":0,},
     {"id":{"name":"get_enemy","path":"scripts/get_enemy/get_enemy.yy",},"order":0,},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":0,},

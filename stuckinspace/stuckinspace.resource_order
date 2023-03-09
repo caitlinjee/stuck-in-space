@@ -73,6 +73,7 @@
     {"name":"spr_enemy_shoot","order":2,"path":"sprites/spr_enemy_shoot/spr_enemy_shoot.yy",},
     {"name":"obj_spawner_tank","order":11,"path":"objects/obj_spawner_tank/obj_spawner_tank.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
+    {"name":"obj_next_arrow","order":5,"path":"objects/obj_next_arrow/obj_next_arrow.yy",},
     {"name":"get_enemy","order":2,"path":"scripts/get_enemy/get_enemy.yy",},
   ],
 }
