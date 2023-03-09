@@ -2,6 +2,11 @@
 // You can write your code in this editor
 
 
+/*if instance_exists(obj_pause) {
+	xspd = 0;
+	yspd = 0;
+}*/
+
 // player movement (smoother)
 #region
 rightKey = keyboard_check( ord( "D" ) ); 

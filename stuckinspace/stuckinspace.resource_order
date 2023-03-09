@@ -26,10 +26,13 @@
     {"name":"todelete","order":26,"path":"folders/Objects/todelete.yy",},
     {"name":"powerup","order":27,"path":"folders/Objects/powerup.yy",},
     {"name":"powerup","order":19,"path":"folders/Sprites/powerup.yy",},
+    {"name":"roommanager","order":28,"path":"folders/Objects/roommanager.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_powerup","order":1,"path":"objects/obj_powerup/obj_powerup.yy",},
+    {"name":"obj_pause","order":1,"path":"objects/obj_pause/obj_pause.yy",},
     {"name":"obj_enemy_shoot","order":2,"path":"objects/obj_enemy_shoot/obj_enemy_shoot.yy",},
+    {"name":"spr_warp_block","order":20,"path":"sprites/spr_warp_block/spr_warp_block.yy",},
     {"name":"powerup_inventory","order":3,"path":"scripts/powerup_inventory/powerup_inventory.yy",},
     {"name":"spr_bullet_enemy","order":4,"path":"sprites/spr_bullet_enemy/spr_bullet_enemy.yy",},
     {"name":"obj_spawner","order":8,"path":"objects/obj_spawner/obj_spawner.yy",},

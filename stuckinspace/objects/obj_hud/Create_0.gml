@@ -8,13 +8,13 @@ playerHp = 0;
 playerMaxHp = 0;
 
 //enemy 
+// initial values
+global.maxChasers = 9;
+global.maxShooters = 6;
+global.maxTanks = 0;
 
-global.maxChasers = 4;
-global.maxShooters = 3;
-global.maxTanks = 2;
-
-global.enemyRoomMax = 3;//global.maxChasers + global.maxShooters + global.maxTanks; //total
-global.activeEnemyMax = 4; // at once
+global.enemyRoomMax = global.maxChasers + global.maxShooters + global.maxTanks; //total
+global.activeEnemyMax = 6; // at once
 global.totalEnemies = 0; //spawned
 global.enemyKillCount = 0;
 
