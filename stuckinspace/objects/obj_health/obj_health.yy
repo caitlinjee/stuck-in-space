@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "del1",
+  "name": "obj_health",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -9,10 +9,13 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "todelete",
-    "path": "folders/Objects/todelete.yy",
+    "name": "powerup",
+    "path": "folders/Objects/powerup.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_powerup",
+    "path": "objects/obj_powerup/obj_powerup.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,7 +31,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_health",
+    "path": "sprites/spr_health/spr_health.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
