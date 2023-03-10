@@ -26,7 +26,7 @@ draw_text_transformed ( _camX + _camW/2, _camY + _camH/2 + _gameoverOffset, "Gam
 
 //"press shoot to restart"
 var _restartOffset = 80;
-draw_text_transformed ( _camX + _camW/2, _camY + _camH/2 + _restartOffset, "~ Click to Restart ~", 1, 1, 0 )
+draw_text_transformed ( _camX + _camW/2, _camY + _camH/2 + _restartOffset, "~ Click to restart ~", 1, 1, 0 )
 
 draw_set_halign (fa_left);
 draw_set_valign(fa_top);
