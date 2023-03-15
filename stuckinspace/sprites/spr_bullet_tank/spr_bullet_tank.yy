@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_bullet_tank",
-  "bbox_bottom": 51,
-  "bbox_left": 9,
-  "bbox_right": 47,
-  "bbox_top": 10,
+  "bbox_bottom": 65,
+  "bbox_left": 11,
+  "bbox_right": 66,
+  "bbox_top": 30,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c433e0e6-6130-48fc-8dad-005ca72eae5d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dd41ec36-4cbc-4fe8-977b-6631e3d8070f",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 95,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c45a3552-5685-4a40-9341-4d772c5d7e30","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"50c32f44-3b12-490b-877a-c3dd57535981","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c433e0e6-6130-48fc-8dad-005ca72eae5d","path":"sprites/spr_bullet_tank/spr_bullet_tank.yy",},},},"Disabled":false,"id":"7404c2ca-17c8-4533-8aad-74fc753544f6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"dd41ec36-4cbc-4fe8-977b-6631e3d8070f","path":"sprites/spr_bullet_tank/spr_bullet_tank.yy",},},},"Disabled":false,"id":"01d90a7c-5fa8-4b60-94aa-63f85364a316","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 78,
 }

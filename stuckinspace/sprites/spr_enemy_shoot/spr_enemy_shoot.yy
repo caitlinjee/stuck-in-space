@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"84a0611b-ddc4-4024-8143-01a6fb8e153f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"73d8d0cc-525d-4dbd-ab0d-72a1fbc2c859",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 100,
+  "height": 90,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8328d7fe-5746-4327-889c-c33c79cbff16","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5fa0683c-e063-4730-b33d-469842f7c0fc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"84a0611b-ddc4-4024-8143-01a6fb8e153f","path":"sprites/spr_enemy_shoot/spr_enemy_shoot.yy",},},},"Disabled":false,"id":"3257ce84-3e79-494b-9ef3-9626bda1f8ca","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"73d8d0cc-525d-4dbd-ab0d-72a1fbc2c859","path":"sprites/spr_enemy_shoot/spr_enemy_shoot.yy",},},},"Disabled":false,"id":"f277a118-2f18-4ba5-b6b5-1ba256b307a9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 100,
+  "width": 72,
 }
