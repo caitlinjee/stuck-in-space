@@ -9,4 +9,4 @@ event_inherited();
 
 // spawn
 timer = 0;
-spawn_rate = 350;
+spawn_rate = irandom_range(300, 350);
