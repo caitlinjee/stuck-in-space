@@ -7,14 +7,17 @@ timer++;
 
 
 //reset timer when enemy limits have been reached
-if instance_number (obj_enemy) >= global.activeEnemyMax || global.totalEnemies >= global.enemyRoomMax {
-	timer = 0;
+if instance_number (obj_enemy) >= global.activeEnemyMax || global.totalEnemies >= global.enemyRoomMax ||
+	count == global.maxTanks {
+		timer = 0;
 }
 
 if timer >= spawn_rate && !place_meeting(x, y, obj_enemy_tank) {
 	
 	//create an enemy
 	var _inst = instance_create_layer(x, y, "Enemy_Layer", obj_enemy_tank);
+	
+	count++;
 	
 	with(_inst) {
 		image_alpha = 0;

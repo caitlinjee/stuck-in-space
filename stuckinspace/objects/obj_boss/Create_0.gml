@@ -3,9 +3,9 @@
 
 event_inherited();
 
-max_hp = 30;
+max_hp = 40;
 current_hp = max_hp;
-spd = 0;
+spd = 3.5;
 emergeSpd = spd;
 
 state = 0;

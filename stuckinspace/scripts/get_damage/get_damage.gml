@@ -52,6 +52,9 @@ function get_damage(_damaged_obj, _iframes = false) {
 	
 	//receive damage
 	if place_meeting( x, y, _damaged_obj) {
+		
+		instance_create_layer(x, y, "Bullets_Layer", obj_dmg_popup);
+		
 		//getting a list of the damage instances
 		//create ds list and copy instances to it 
 		var _instList = ds_list_create();

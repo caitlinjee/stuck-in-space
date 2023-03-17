@@ -79,6 +79,7 @@
     {"id":{"name":"obj_damage_enemy","path":"objects/obj_damage_enemy/obj_damage_enemy.yy",},"order":0,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":0,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":0,},
+    {"id":{"name":"lvl0","path":"rooms/lvl0/lvl0.yy",},"order":0,},
     {"id":{"name":"weapon_damage","path":"scripts/weapon_damage/weapon_damage.yy",},"order":0,},
     {"id":{"name":"spr_solid_wall","path":"sprites/spr_solid_wall/spr_solid_wall.yy",},"order":0,},
     {"id":{"name":"obj_damage","path":"objects/obj_damage/obj_damage.yy",},"order":0,},
@@ -100,6 +101,7 @@
     {"id":{"name":"del3","path":"objects/del3/del3.yy",},"order":0,},
     {"id":{"name":"lvl1","path":"rooms/lvl1/lvl1.yy",},"order":0,},
     {"id":{"name":"get_damage","path":"scripts/get_damage/get_damage.yy",},"order":0,},
+    {"id":{"name":"obj_dmg_popup","path":"objects/obj_dmg_popup/obj_dmg_popup.yy",},"order":0,},
     {"id":{"name":"spr_search","path":"sprites/spr_search/spr_search.yy",},"order":0,},
     {"id":{"name":"spr_enemy_tank","path":"sprites/spr_enemy_tank/spr_enemy_tank.yy",},"order":0,},
     {"id":{"name":"spr_enemy_chase","path":"sprites/spr_enemy_chase/spr_enemy_chase.yy",},"order":0,},
@@ -113,6 +115,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
+    {"roomId":{"name":"lvl0","path":"rooms/lvl0/lvl0.yy",},},
     {"roomId":{"name":"lvl1","path":"rooms/lvl1/lvl1.yy",},},
     {"roomId":{"name":"lvl2","path":"rooms/lvl2/lvl2.yy",},},
     {"roomId":{"name":"lvl3","path":"rooms/lvl3/lvl3.yy",},},

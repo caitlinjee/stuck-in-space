@@ -11,13 +11,13 @@ image_angle = direction;
 
 
 dir = direction; //0;
-spd = 5;
+spd = 4;
 xspd = 0;
 yspd = 0;
 
 damage = global.weapon_list.original_weapon.damage;
 
 // cleanup
-maxDist = 1000;
+maxDist = 750;
 destroy = false;
 enemy_destroy = true;

@@ -5,7 +5,7 @@ event_inherited();
 
 max_hp = 10;
 current_hp = max_hp;
-spd = 1.5;
+spd = 2;
 emergeSpd = spd;
 
 cooldown = 0; //irandom(x)
