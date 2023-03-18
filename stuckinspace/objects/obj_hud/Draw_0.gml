@@ -14,6 +14,7 @@ draw_text(_camX, _camY, _hpString );*/
 if instance_exists(obj_player) {
 	draw_healthbar(_camX + 50, _camY + 50, _camX + 500, _camY + 100, 100* playerHp / playerMaxHp, 
 		c_black, c_red, c_green, 0, true, true);
+	draw_text(_camX + 70, _camY + 55, "HP: " + string (playerHp) + "/" + string(playerMaxHp) );
 }
 
 // enemies remaining

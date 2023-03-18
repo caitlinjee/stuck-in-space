@@ -8,5 +8,6 @@ alarm[0] = spawnrate;*/
 event_inherited();
 
 // spawn
+count = 0;
 timer = 0;
 spawn_rate = irandom_range(250, 350);

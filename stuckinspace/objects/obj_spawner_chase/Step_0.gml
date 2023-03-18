@@ -6,8 +6,9 @@ timer++;
 
 
 //reset timer when enemy limits have been reached
-if instance_number (obj_enemy) >= global.activeEnemyMax || global.totalEnemies >= global.enemyRoomMax {
-	timer = 0;
+if instance_number (obj_enemy) >= global.activeEnemyMax || global.totalEnemies >= global.enemyRoomMax ||
+	count >= global.maxChasers {
+		timer = 0;
 }
 
 if timer >= spawn_rate && !place_meeting(x, y, obj_enemy_chase) {
@@ -19,6 +20,8 @@ if timer >= spawn_rate && !place_meeting(x, y, obj_enemy_chase) {
 		image_alpha = 0;
 		state = -1;	
 	}
+	
+	count++;
 	
 	//reset the timer
 	timer = 0;
