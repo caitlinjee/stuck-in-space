@@ -64,6 +64,7 @@
     {"id":{"name":"lvl3","path":"rooms/lvl3/lvl3.yy",},"order":0,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":0,},
     {"id":{"name":"del1","path":"objects/del1/del1.yy",},"order":0,},
+    {"id":{"name":"obj_tut","path":"objects/obj_tut/obj_tut.yy",},"order":0,},
     {"id":{"name":"rm_boss","path":"rooms/rm_boss/rm_boss.yy",},"order":0,},
     {"id":{"name":"obj_damage_parent","path":"objects/obj_damage_parent/obj_damage_parent.yy",},"order":0,},
     {"id":{"name":"del4","path":"objects/del4/del4.yy",},"order":0,},

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-target_x = 130;
-target_y = 640;
-target_rm = lvl1;
+
+instance_create_layer(x, y, "Enemy_Layer", obj_enemy_chase);
+

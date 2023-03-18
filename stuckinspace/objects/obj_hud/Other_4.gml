@@ -5,7 +5,11 @@ if instance_exists(obj_next_arrow) {
 	instance_destroy(obj_next_arrow);	
 }
 
-if room == lvl1 {
+if room == lvl0 {
+	global.maxChasers = 0; //8; //13
+	global.maxShooters = 1; //7; // 10
+	global.maxTanks = 0; //5; // 7
+} else if room == lvl1 {
 	global.maxChasers = 9; //8; //13
 	global.maxShooters = 6; //7; // 10
 	global.maxTanks = 0; //5; // 7
