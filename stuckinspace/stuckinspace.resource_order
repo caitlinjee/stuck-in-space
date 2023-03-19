@@ -47,6 +47,7 @@
     {"name":"obj_damage_parent","order":24,"path":"objects/obj_damage_parent/obj_damage_parent.yy",},
     {"name":"del4","order":3,"path":"objects/del4/del4.yy",},
     {"name":"obj_bullet_parent","order":2,"path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},
+    {"name":"spr_asteroid","order":3,"path":"sprites/spr_asteroid/spr_asteroid.yy",},
     {"name":"obj_bullet_enemy","order":1,"path":"objects/obj_bullet_enemy/obj_bullet_enemy.yy",},
     {"name":"obj_slime","order":2,"path":"objects/obj_slime/obj_slime.yy",},
     {"name":"obj_damage_player","order":25,"path":"objects/obj_damage_player/obj_damage_player.yy",},

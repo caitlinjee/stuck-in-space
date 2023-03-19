@@ -70,6 +70,7 @@
     {"id":{"name":"del4","path":"objects/del4/del4.yy",},"order":0,},
     {"id":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"order":0,},
     {"id":{"name":"spr_health","path":"sprites/spr_health/spr_health.yy",},"order":0,},
+    {"id":{"name":"spr_asteroid","path":"sprites/spr_asteroid/spr_asteroid.yy",},"order":0,},
     {"id":{"name":"obj_bullet_enemy","path":"objects/obj_bullet_enemy/obj_bullet_enemy.yy",},"order":0,},
     {"id":{"name":"obj_slime","path":"objects/obj_slime/obj_slime.yy",},"order":0,},
     {"id":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"order":0,},
