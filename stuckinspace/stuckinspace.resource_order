@@ -61,6 +61,7 @@
     {"name":"obj_game_over","order":3,"path":"objects/obj_game_over/obj_game_over.yy",},
     {"name":"obj_camera","order":2,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_hud","order":4,"path":"objects/obj_hud/obj_hud.yy",},
+    {"name":"obj_meteor","order":3,"path":"objects/obj_meteor/obj_meteor.yy",},
     {"name":"obj_enemy_chase","order":1,"path":"objects/obj_enemy_chase/obj_enemy_chase.yy",},
     {"name":"spr_boss","order":7,"path":"sprites/spr_boss/spr_boss.yy",},
     {"name":"rm_init","order":5,"path":"rooms/rm_init/rm_init.yy",},

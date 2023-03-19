@@ -2,5 +2,4 @@
 // You can write your code in this editor
 
 
-draw_shoot = false;
-draw_powerup = true;
+instance_create_layer(x, y, "Enemy_Layer", del2);
