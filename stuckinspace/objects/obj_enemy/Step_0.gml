@@ -104,6 +104,10 @@ if ((current_hp) <= 0) {
 	
 	global.enemyKillCount++;
 	
+	// 20% chance drop health
+	//var _health_chance = irand(0,100);
+	//if _health_chance <= 20 ? instance_create_depth (x, y, depth, obj_health);
+	
 	if global.enemyRoomMax - global.enemyKillCount == 0 {
 		instance_create_depth (x, y, depth, obj_health);
 	}
