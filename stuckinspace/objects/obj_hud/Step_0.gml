@@ -16,3 +16,9 @@ if global.enemyRoomMax - global.enemyKillCount == 0 {
 	instance_create_depth (0, 0, -10000, obj_next_arrow);
 
 }
+
+//increase max enemies
+if enemy_increase && (room == lvl1 || room == lvl2) {
+	global.activeEnemyMax++;
+	enemy_increase = false;	
+}

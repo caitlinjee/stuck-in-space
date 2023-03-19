@@ -18,5 +18,8 @@ global.activeEnemyMax = 6; // at once
 global.totalEnemies = 0; //spawned
 global.enemyKillCount = 0;
 
+alarm[0] = room_speed * 20;
+enemy_increase = false;
+
 //score
 global.thescore = 0;
