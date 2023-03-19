@@ -10,8 +10,8 @@
     "path": "folders/Objects/obstacles.yy",
   },
   "parentObjectId": {
-    "name": "obj_wall",
-    "path": "objects/obj_wall/obj_wall.yy",
+    "name": "obj_solid_wall",
+    "path": "objects/obj_solid_wall/obj_solid_wall.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_solid_wall",
-    "path": "sprites/spr_solid_wall/spr_solid_wall.yy",
+    "name": "spr_asteroid",
+    "path": "sprites/spr_asteroid/spr_asteroid.yy",
   },
   "spriteMaskId": null,
   "visible": true,
