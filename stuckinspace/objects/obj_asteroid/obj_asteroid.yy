@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_meteor",
+  "name": "obj_asteroid",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
