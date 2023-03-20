@@ -4,7 +4,7 @@
 cooldown = 0;
 firerate = 35;
 
-max_hp = 100;
+max_hp = 15;
 current_hp = max_hp;
 
 moveDir = 0;

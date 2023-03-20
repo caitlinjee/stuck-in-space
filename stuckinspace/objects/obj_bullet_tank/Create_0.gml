@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 dir = 0;
-spd = 3;
+spd = 2.5;
 xspd = 0;
 yspd = 0;
 
