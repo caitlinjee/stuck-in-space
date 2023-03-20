@@ -14,7 +14,7 @@ global.maxShooters = 0;//6;
 global.maxTanks = 0;
 
 global.enemyRoomMax = 0; //global.maxChasers + global.maxShooters + global.maxTanks; //total
-global.activeEnemyMax = 6; // at once
+global.activeEnemyMax = 5; // at once
 global.totalEnemies = 0; //spawned
 global.enemyKillCount = 0;
 

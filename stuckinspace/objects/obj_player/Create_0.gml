@@ -2,8 +2,9 @@
 // You can write your code in this editor
 
 cooldown = 0;
+firerate = 35;
 
-max_hp = 10;
+max_hp = 100;
 current_hp = max_hp;
 
 moveDir = 0;

@@ -17,7 +17,7 @@ if instance_exists(obj_player) {
 	}
 
 	if draw_powerup {
-		draw_text_ext(obj_player.x, obj_player.y - 150, "Pick up hearts to gain back lost health", 50, 400);
+		draw_text_ext(obj_player.x, obj_player.y - 150, "Pick up guns to increase fire rate and hearts to gain back lost health", 50, 500);
 	}
 }
 

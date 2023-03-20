@@ -71,6 +71,7 @@
     {"name":"lvl2","order":6,"path":"rooms/lvl2/lvl2.yy",},
     {"name":"obj_bullet_tank","order":3,"path":"objects/obj_bullet_tank/obj_bullet_tank.yy",},
     {"name":"obj_boss","order":13,"path":"objects/obj_boss/obj_boss.yy",},
+    {"name":"obj_congrats","order":8,"path":"objects/obj_congrats/obj_congrats.yy",},
     {"name":"obj_spawner_chase","order":9,"path":"objects/obj_spawner_chase/obj_spawner_chase.yy",},
     {"name":"del3","order":2,"path":"objects/del3/del3.yy",},
     {"name":"lvl1","order":2,"path":"rooms/lvl1/lvl1.yy",},

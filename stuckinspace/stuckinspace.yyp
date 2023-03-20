@@ -100,6 +100,7 @@
     {"id":{"name":"lvl2","path":"rooms/lvl2/lvl2.yy",},"order":0,},
     {"id":{"name":"obj_bullet_tank","path":"objects/obj_bullet_tank/obj_bullet_tank.yy",},"order":0,},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":0,},
+    {"id":{"name":"obj_congrats","path":"objects/obj_congrats/obj_congrats.yy",},"order":0,},
     {"id":{"name":"obj_spawner_chase","path":"objects/obj_spawner_chase/obj_spawner_chase.yy",},"order":0,},
     {"id":{"name":"del3","path":"objects/del3/del3.yy",},"order":0,},
     {"id":{"name":"lvl1","path":"rooms/lvl1/lvl1.yy",},"order":0,},

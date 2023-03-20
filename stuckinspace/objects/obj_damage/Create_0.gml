@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-adddamage = 1;
+addfirerate = 3;
