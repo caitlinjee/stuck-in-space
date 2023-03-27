@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "todelete",
-    "path": "folders/Objects/todelete.yy",
+    "name": "todelete(dont delete)",
+    "path": "folders/Objects/todelete(dont delete).yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -12,6 +12,7 @@ playerMaxHp = 0;
 global.maxChasers = 0;//9;
 global.maxShooters = 0;//6;
 global.maxTanks = 0;
+global.boss = 0;
 
 global.enemyRoomMax = 0; //global.maxChasers + global.maxShooters + global.maxTanks; //total
 global.activeEnemyMax = 5; // at once

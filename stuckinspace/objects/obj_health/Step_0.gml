@@ -10,6 +10,7 @@ if place_meeting(x, y, obj_player) {
 	
 	var _collected = instance_create_layer(x, y, "Instances", obj_collected_popup);
 	_collected.towrite = "+1 health";
+	_collected.write_height = 120;
 	
 	//destroy self 
 	instance_destroy();

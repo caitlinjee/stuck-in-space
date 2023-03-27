@@ -11,6 +11,7 @@ if place_meeting(x, y, obj_player) {
 	
 	var _collected = instance_create_layer(x, y, "Instances", obj_collected_popup);
 	_collected.towrite = "Fire rate increased!";
+	_collected.write_height= 100;
 	
 	//destroy self 
 	instance_destroy();
