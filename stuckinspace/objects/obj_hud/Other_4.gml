@@ -33,7 +33,7 @@ if room == lvl0 {
 	global.maxShooters = 5; //7; // 10
 	global.maxTanks = 4; //5; // 7	
 } else if room == lvl5 {
-	global.activeEnemyMax = 6;
+	global.activeEnemyMax = 5;
 	global.maxChasers = 7; //8; //13
 	global.maxShooters = 8; //7; // 10
 	global.maxTanks = 5; //5; // 7	
