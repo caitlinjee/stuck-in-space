@@ -8,7 +8,7 @@ timer++;
 
 //reset timer when enemy limits have been reached
 if instance_number (obj_enemy) >= global.activeEnemyMax || global.totalEnemies >= global.enemyRoomMax || 
-	count >= global.maxShooters{
+	global.shootcount >= global.maxShooters{
 		timer = 0;
 }
 
@@ -17,7 +17,7 @@ if timer >= spawn_rate && !place_meeting(x, y, obj_enemy_shoot) {
 	//create an enemy
 	var _inst = instance_create_layer(x, y, "Enemy_Layer", obj_enemy_shoot);
 	
-	count++;
+	global.shootcount++;
 	
 	with(_inst) {
 		image_alpha = 0;

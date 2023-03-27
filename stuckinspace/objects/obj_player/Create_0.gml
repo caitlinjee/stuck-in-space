@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 cooldown = 0;
-firerate = 35;
+firerate = 33;
 
 max_hp = 15;
 current_hp = max_hp;

@@ -10,4 +10,4 @@ emergeSpd = spd;
 
 cooldown = 0; //irandom(x)
 damage = 1;
-//state = 0;
+state = 0;
