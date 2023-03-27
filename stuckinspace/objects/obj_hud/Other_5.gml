@@ -4,3 +4,7 @@
 
 global.totalEnemies = 0; //spawned
 global.enemyKillCount = 0;
+
+global.chasecount = 0;
+global.shootcount = 0;
+global.tankcount = 0;

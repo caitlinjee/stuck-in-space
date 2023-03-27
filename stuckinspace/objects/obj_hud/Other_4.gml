@@ -3,6 +3,7 @@
 
 alarm[0] = room_speed * 20;
 
+
 if instance_exists(obj_next_arrow) {
 	instance_destroy(obj_next_arrow);	
 }
@@ -41,7 +42,9 @@ if room == lvl0 {
 	global.maxChasers = 8; //8; //13
 	global.maxShooters = 7; //7; // 10
 	global.maxTanks = 5; //5; // 7	
+	global.boss = 1;
 }
+
 // debug
 else if room == rm_test {
 	global.activeEnemyMax = 6;
