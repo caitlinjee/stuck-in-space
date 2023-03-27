@@ -8,6 +8,10 @@ event_inherited();
 if place_meeting(x, y, obj_player) {
 	//heal the player 
 	obj_player.firerate -= addfirerate ;
+	
+	var _collected = instance_create_layer(x, y, "Instances", obj_collected_popup);
+	_collected.towrite = "Fire rate increased!";
+	
 	//destroy self 
 	instance_destroy();
 }
