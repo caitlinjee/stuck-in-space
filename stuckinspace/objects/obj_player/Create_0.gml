@@ -12,6 +12,9 @@ moveSpd = 10;
 xspd = 0;
 yspd = 0;
 
+paused = false;
+paused_surf = -1;
+
 // create dmg list
 //damage_list = ds_list_create();
 

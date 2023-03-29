@@ -73,6 +73,7 @@ if current_hp <= 0 {
 
 // old code
 #region
+
 // player cant move past screen border
 /*x = clamp(x, 0, 2048);
 y = clamp(y, 0, 1536);

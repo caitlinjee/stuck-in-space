@@ -7,7 +7,7 @@ alpha = clamp ( alpha, 0, 1);
 
 //go back to menu
 if mouse_check_button(mb_left) && alpha >= 1 {
-	room_goto(lvl0);
+	room_goto(rm_menu);
 	global.thescore = 0;
 	
 }
