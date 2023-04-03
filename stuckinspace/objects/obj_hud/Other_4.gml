@@ -21,14 +21,14 @@ if room == lvl0 {
 	room_name = 1;
 } else if room == lvl2 { 
 	global.activeEnemyMax = 4;
-	global.maxChasers = 9; //8; //13
-	global.maxShooters = 6; //7; // 10
+	global.maxChasers = 8; //8; //13
+	global.maxShooters = 5; //7; // 10
 	global.maxTanks = 0; //5; // 7	
 	room_name = 2;
 } else if room == lvl3 {
 	global.activeEnemyMax = 5;
-	global.maxChasers = 9; //8; //13
-	global.maxShooters = 7; //7; // 10
+	global.maxChasers = 8; //8; //13
+	global.maxShooters = 6; //7; // 10
 	global.maxTanks = 3; //5; // 7	
 	room_name = 3;
 /*} else if room == lvl4 {
