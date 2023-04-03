@@ -25,7 +25,7 @@ if global.enemyRoomMax - global.enemyKillCount == 0 {
 }
 
 //increase max enemies
-if enemy_increase && (room == lvl4 || room == lvl5 ) {
+if enemy_increase && (room == lvl3 || room == lvl5 ) {
 	global.activeEnemyMax++;
 	enemy_increase = false;	
 }

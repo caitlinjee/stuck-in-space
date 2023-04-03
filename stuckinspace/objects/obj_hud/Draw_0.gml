@@ -29,4 +29,4 @@ draw_set_font(font_score);
 //draw_set_colour(c_white);
 //draw_text(_camX + (_camW / 2), _camY + 25, string(thescore));
 
-draw_text(_camX+1650, _camY+50, "Score: " + string(global.thescore));
+draw_text(_camX+1650, _camY+50, "Room: " + string(room_name));

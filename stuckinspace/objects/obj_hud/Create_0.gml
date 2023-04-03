@@ -28,3 +28,4 @@ enemy_increase = false;
 
 //score
 global.thescore = 0;
+room_name = 0;
