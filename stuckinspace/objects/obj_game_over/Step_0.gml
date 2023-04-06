@@ -7,7 +7,9 @@ alpha = clamp ( alpha, 0, 1);
 
 //restart
 if mouse_check_button(mb_left) && alpha >= 1 {
-	room_goto(lvl0);
+	instance_destroy(obj_player);
+	instance_destroy(obj_hud);
+	room_goto(rm_menu);
 	global.thescore = 0;
 	
 }

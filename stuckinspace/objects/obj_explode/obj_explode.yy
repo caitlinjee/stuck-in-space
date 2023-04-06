@@ -1,17 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_damage_parent",
+  "name": "obj_explode",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "obj_damage",
-    "path": "folders/Objects/obj_damage.yy",
+    "name": "enemies",
+    "path": "folders/Objects/enemies.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "del1",
+    "path": "objects/del1/del1.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -27,7 +30,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_explode",
+    "path": "sprites/spr_explode/spr_explode.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

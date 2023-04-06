@@ -1,6 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//sprite control
+face = 0;
+sprite[0] = spr_player;
+sprite[1] = spr_player_2;
+//sprite_index = sprite[face];
+
+
 cooldown = 0;
 firerate = 33;
 
