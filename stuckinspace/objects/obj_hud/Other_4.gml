@@ -44,9 +44,9 @@ if room == lvl0 {
 	room_name = 4;
 } else if room == rm_boss {
 	global.activeEnemyMax = 6;
-	global.maxChasers = 10; //8; //13
-	global.maxShooters = 9; //7; // 10
-	global.maxTanks = 6; //5; // 7	
+	global.maxChasers = 1;//10; //8; //13
+	global.maxShooters = 0;//9; //7; // 10
+	global.maxTanks = 0;//6; //5; // 7	
 	global.boss = 1;
 	room_name = 5;
 }

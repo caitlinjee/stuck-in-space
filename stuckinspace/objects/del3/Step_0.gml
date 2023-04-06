@@ -4,4 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
-if image_xscale == 1 instance_change(obj_enemy_shoot, true);
+if global.enemyKillCount == global.maxChasers + global.maxShooters + global.maxTanks {
+	//grow the enemies
+	instance_create_layer(x, y, "Enemy_Layer", del5);
+	instance_destroy();
+}

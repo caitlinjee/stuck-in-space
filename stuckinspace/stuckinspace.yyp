@@ -136,12 +136,12 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
+    {"roomId":{"name":"rm_boss","path":"rooms/rm_boss/rm_boss.yy",},},
     {"roomId":{"name":"lvl0","path":"rooms/lvl0/lvl0.yy",},},
     {"roomId":{"name":"lvl1","path":"rooms/lvl1/lvl1.yy",},},
     {"roomId":{"name":"lvl2","path":"rooms/lvl2/lvl2.yy",},},
     {"roomId":{"name":"lvl3","path":"rooms/lvl3/lvl3.yy",},},
     {"roomId":{"name":"lvl5","path":"rooms/lvl5/lvl5.yy",},},
-    {"roomId":{"name":"rm_boss","path":"rooms/rm_boss/rm_boss.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_help","path":"rooms/rm_help/rm_help.yy",},},
     {"roomId":{"name":"rm_pause","path":"rooms/rm_pause/rm_pause.yy",},},

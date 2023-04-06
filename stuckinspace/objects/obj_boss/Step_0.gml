@@ -13,7 +13,7 @@ var _camRight = _camLeft + camera_get_view_width( view_camera[0] );
 var _camTop = camera_get_view_y( view_camera[0]);
 var _camBottom = _camTop + camera_get_view_height ( view_camera[0]);
 
-var _num_bullets = 20;
+var _num_bullets = 17;
 var _spread = 360;
 
 var _spread_div = _spread/_num_bullets - 1;
