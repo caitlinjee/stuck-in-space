@@ -97,7 +97,7 @@ if ((current_hp) <= 0) {
 	
 	//determine if we should drop an item
 	var _chance = irandom(100);
-	if _chance < 30 && global.enemyRoomMax - global.enemyKillCount != 0 {
+	if _chance < 33 && global.enemyRoomMax - (global.enemyKillCount+1) != 0 {
 		instance_create_depth (x, y, depth, obj_health);
 	}
 	
