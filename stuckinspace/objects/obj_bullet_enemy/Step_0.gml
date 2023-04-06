@@ -28,9 +28,9 @@ if place_meeting( x, y, obj_solid_wall) {
 }
 
 //bullet out of range
-/*if point_distance( xstart, ystart, x, y ) > maxDist {
+if point_distance( xstart, ystart, x, y ) > maxDist {
 	destroy = true;
-}*/
+}
 
 //out of room bounds (put on top)
 var _pad = 16;

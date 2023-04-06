@@ -8,8 +8,8 @@ draw_shoot = false;
 draw_powerup = false;
 
 alarm[0] = room_speed * 0.1; // wasd
-alarm[1] = room_speed * 6;  //obstruct
-alarm[2] = room_speed * 11;  // shoot
-alarm[3] = room_speed * 14; // enemy spawn
-alarm[4] = room_speed * 19;  // heart
-alarm[5] = room_speed * 25;  // all gone
+alarm[1] = room_speed * 4;  //obstruct
+alarm[2] = room_speed * 8;  // shoot
+alarm[3] = room_speed * 11; // enemy spawn
+alarm[4] = room_speed * 14;  // heart
+alarm[5] = room_speed * 23;  // all gone
