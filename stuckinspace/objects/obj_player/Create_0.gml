@@ -2,6 +2,12 @@
 // You can write your code in this editor
 
 //sprite control
+centerYOffset = 0; //modify this 60?
+centerY = y + centerYOffset; //set in step 
+weaponOffsetDist = 7;
+aimDir = 0;
+weaponLength = sprite_get_bbox_right(spr_gun) - sprite_get_xoffset(spr_gun);
+
 face = 0;
 sprite[0] = spr_player;
 sprite[1] = spr_player_2;

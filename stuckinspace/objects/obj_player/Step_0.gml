@@ -46,21 +46,33 @@ depth = -bbox_bottom;
 
 #endregion
 
+// player aiming
+#region
+centerY = y + centerYOffset;
+
+//aim
+aimDir = point_direction( x, centerY, mouse_x, mouse_y );
+#endregion
+
 //sprite control
+#region
 //make sure the player is facing the correct direction
-face = round( moveDir/180);
+face = round( aimDir/180);
 //if face == 2 { face = 0; };
 // set the player sprite 
 //sprite_index = sprite[face];
 
 if face == 1 image_xscale = -1;
 else image_xscale = 1;
+#endregion
 
 //shooting when click
 #region
 shootKey = mouse_check_button(mb_left);
 if (shootKey) && (cooldown < 1) {
-	instance_create_layer(x, y, "Bullets_Layer", obj_bullet);
+	var _xOffset = lengthdir_x( weaponLength + weaponOffsetDist, aimDir );
+	var _yOffset = lengthdir_y(weaponLength + weaponOffsetDist, aimDir );
+	instance_create_layer(x + _xOffset, y + _yOffset, "Bullets_Layer", obj_bullet);
 	cooldown = firerate;
 }
 
