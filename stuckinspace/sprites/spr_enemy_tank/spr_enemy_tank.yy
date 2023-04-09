@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_enemy_tank",
-  "bbox_bottom": 84,
-  "bbox_left": 24,
-  "bbox_right": 79,
-  "bbox_top": 25,
+  "bbox_bottom": 74,
+  "bbox_left": 0,
+  "bbox_right": 73,
+  "bbox_top": 1,
   "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"517bafea-45e3-4f1a-b1d6-2d1ac3be4dd2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9df2868c-02c7-4940-89c3-bf5d45ba2b08",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 82,
+  "height": 75,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fef31db6-6919-40ac-90e5-82213b6a2d0b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a3114b0d-2b87-4d84-a24d-5f3ef2340201","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"517bafea-45e3-4f1a-b1d6-2d1ac3be4dd2","path":"sprites/spr_enemy_tank/spr_enemy_tank.yy",},},},"Disabled":false,"id":"4e3c0ea3-1e6e-4240-a0f6-e4b40a291243","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9df2868c-02c7-4940-89c3-bf5d45ba2b08","path":"sprites/spr_enemy_tank/spr_enemy_tank.yy",},},},"Disabled":false,"id":"09dd2268-ba01-4d9a-9421-206d7e4365e4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 72,
+  "width": 75,
 }

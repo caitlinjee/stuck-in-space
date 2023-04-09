@@ -58,7 +58,7 @@ if alienDie == true {
 // astro get hit
 if astroHit == true {
 				//play sound
-	var _snd = audio_play_sound(snd_astro_hit, 10, false);
+	var _snd = audio_play_sound(snd_astro_hit, 8, false);
 	audio_sound_gain( _snd, 0.9, 0);
 	
 	//reset variable

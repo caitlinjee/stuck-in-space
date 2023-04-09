@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_enemy_shoot",
-  "bbox_bottom": 87,
-  "bbox_left": 20,
-  "bbox_right": 81,
-  "bbox_top": 29,
+  "bbox_bottom": 68,
+  "bbox_left": 8,
+  "bbox_right": 62,
+  "bbox_top": 5,
   "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"73d8d0cc-525d-4dbd-ab0d-72a1fbc2c859",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"382ed1ac-0618-489a-b450-db02f0c44260",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 90,
+  "height": 70,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5fa0683c-e063-4730-b33d-469842f7c0fc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"65f91efc-ee88-4d2d-a415-6fd07a0945a5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"73d8d0cc-525d-4dbd-ab0d-72a1fbc2c859","path":"sprites/spr_enemy_shoot/spr_enemy_shoot.yy",},},},"Disabled":false,"id":"f277a118-2f18-4ba5-b6b5-1ba256b307a9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"382ed1ac-0618-489a-b450-db02f0c44260","path":"sprites/spr_enemy_shoot/spr_enemy_shoot.yy",},},},"Disabled":false,"id":"d838a8b9-7d8a-4cb8-8c7f-4409bc45599b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 72,
+  "width": 70,
 }

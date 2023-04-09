@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_enemy_chase",
-  "bbox_bottom": 87,
-  "bbox_left": 20,
-  "bbox_right": 78,
-  "bbox_top": 29,
+  "bbox_bottom": 64,
+  "bbox_left": 12,
+  "bbox_right": 58,
+  "bbox_top": 3,
   "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a3e1b46b-422e-4b9d-9d53-8d0545c0de0f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"99fbdae1-7e0c-4d2d-9450-f0faf56a5f08",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 97,
+  "height": 70,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"af162182-2da3-4efd-aea5-f02fab422194","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"96418b05-d99e-477f-8fc5-7cadc5ddbc45","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a3e1b46b-422e-4b9d-9d53-8d0545c0de0f","path":"sprites/spr_enemy_chase/spr_enemy_chase.yy",},},},"Disabled":false,"id":"90f90b26-7724-4c09-aa82-57db1dec2158","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"99fbdae1-7e0c-4d2d-9450-f0faf56a5f08","path":"sprites/spr_enemy_chase/spr_enemy_chase.yy",},},},"Disabled":false,"id":"1f65c9ed-2cc1-42fe-ad5f-e2ad34e115cf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 59,
+  "width": 70,
 }
