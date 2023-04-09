@@ -3,13 +3,33 @@
 
 var _sfxVol = global.SFX_VOL * global.MASTER_VOL;
 
+// bgm
+if bgm {
+	var _snd = audio_play_sound(snd_bgm, 5, true);
+	audio_sound_gain( _snd, 1, 0);
+	
+	bgm = false;
+}
+
+// change to boss bgm
+if bgm_boss {
+	
+	if audio_is_playing(snd_bgm) {
+		audio_stop_sound(snd_bgm);
+	}
+		
+	var _snd = audio_play_sound(snd_bgm_boss, 5, true);
+	audio_sound_gain( _snd, 1, 0);
+	
+	bgm_boss = false;
+}
 
 //astro shoot sound
 if astroShoot == true
 {
 	//play sound
-	var _snd = audio_play_sound(snd_astro_shoot, 10, false);
-	audio_sound_gain( _snd, 0.8, 0);
+	var _snd = audio_play_sound(snd_astro_shoot, 12, false);
+	audio_sound_gain( _snd, 0.7, 0);
 	
 	//reset variable
 	astroShoot = false;
@@ -63,4 +83,14 @@ if heartCollected == true {
 	
 	//reset variable
 	heartCollected = false;
+}
+
+// next room
+if nextRoom == true {
+				//play sound
+	var _snd = audio_play_sound(snd_next_room, 10, false);
+	audio_sound_gain( _snd, 0.9, 0);
+	
+	//reset variable
+	nextRoom = false;
 }

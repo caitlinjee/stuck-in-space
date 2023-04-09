@@ -10,3 +10,7 @@ alienDie = false;
 astroHit = false;
 gunCollected = false;
 heartCollected = false;
+nextRoom = false;
+
+bgm = true;
+bgm_boss = false;

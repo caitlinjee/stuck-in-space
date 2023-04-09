@@ -7,6 +7,11 @@ alpha = clamp ( alpha, 0, 1);
 
 //go back to menu
 if mouse_check_button(mb_left) && alpha >= 1 {
+	
+	if audio_is_playing(snd_bgm_boss) {
+		audio_stop_sound(snd_bgm_boss);
+	}
+	
 	instance_destroy(obj_player);
 	instance_destroy(obj_hud);
 	instance_destroy(obj_sound_manager);
