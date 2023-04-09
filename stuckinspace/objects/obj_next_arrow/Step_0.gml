@@ -5,3 +5,4 @@
 //alpha += alphaSpd;
 //alpha = clamp ( alpha, 0, 1);
 
+if(global.pause) exit;

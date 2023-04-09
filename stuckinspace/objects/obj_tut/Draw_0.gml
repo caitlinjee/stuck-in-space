@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 draw_set_halign(fa_center);
+if(global.pause) exit;
 
 if instance_exists(obj_player) {
 	if draw_wasd {

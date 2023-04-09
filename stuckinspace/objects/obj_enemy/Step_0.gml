@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+if(global.pause) exit;
 var _wallcollisions = true;
 var _getdamage = true;
 

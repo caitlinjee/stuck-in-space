@@ -2,9 +2,9 @@
 // You can write your code in this editor
 
 //sprite control
-centerYOffset = 0; //modify this 60?
+centerYOffset = 20; //modify this 60?
 centerY = y + centerYOffset; //set in step 
-weaponOffsetDist = 7;
+weaponOffsetDist = 6;
 aimDir = 0;
 weaponLength = sprite_get_bbox_right(spr_gun) - sprite_get_xoffset(spr_gun);
 

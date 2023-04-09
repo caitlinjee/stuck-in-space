@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+if(global.pause) exit;
 /*if instance_exists(obj_pause) {
 	xspd = 0;
 	yspd = 0;
@@ -75,7 +75,7 @@ if (shootKey) && (cooldown < 1) {
 	obj_sound_manager.astroShoot = true;
 
 	
-	var _xOffset = lengthdir_x( weaponLength + weaponOffsetDist, aimDir );
+	var _xOffset = lengthdir_x(weaponLength + weaponOffsetDist, aimDir );
 	var _yOffset = lengthdir_y(weaponLength + weaponOffsetDist, aimDir );
 	instance_create_layer(x + _xOffset, y + _yOffset, "Bullets_Layer", obj_bullet);
 	cooldown = firerate;
@@ -91,10 +91,13 @@ get_damage(obj_damage_player, true);
 if current_hp <= 0 {
 	
 	//create the game over object
-	instance_create_depth (0, 0, -10000, obj_game_over);
+	// instance_create_depth (0, 0, -10000, obj_game_over);
 	
 	//destroy ourself 
 	instance_destroy();
+	instance_deactivate_all(true);
+	
+	room_goto(rm_game_over);
 	exit;
 }
 

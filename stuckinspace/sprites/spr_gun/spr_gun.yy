@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_gun",
-  "bbox_bottom": 33,
-  "bbox_left": 12,
-  "bbox_right": 53,
-  "bbox_top": 25,
+  "bbox_bottom": 16,
+  "bbox_left": 0,
+  "bbox_right": 59,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8c3b4c69-9c32-4e73-a908-4d4c69a59cab",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"625b4d60-19e5-4c81-92fd-31ddf26a7f5f",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 18,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c75db456-4c21-4a2b-a643-5ede1f6340fc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a5f277f6-ac88-422c-8b24-699a2dda3a35","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8c3b4c69-9c32-4e73-a908-4d4c69a59cab","path":"sprites/spr_gun/spr_gun.yy",},},},"Disabled":false,"id":"21494773-8eb0-4182-b7b8-a4e45b470488","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"625b4d60-19e5-4c81-92fd-31ddf26a7f5f","path":"sprites/spr_gun/spr_gun.yy",},},},"Disabled":false,"id":"8a07274b-0d2d-43cb-b17e-3c5c2390ad16","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 60,
 }
