@@ -19,6 +19,8 @@ if place_meeting(x, y, obj_player) {
 	}
 	_collected.write_height = 120;
 	
+	obj_sound_manager.heartCollected = true;
+	
 	//destroy self 
 	instance_destroy();
 }

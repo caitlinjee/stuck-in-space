@@ -113,6 +113,8 @@ if ((current_hp) <= 0) {
 		instance_create_depth (x, y, depth, obj_damage);
 	}
 	
+	obj_sound_manager.alienDie = true;
+	
 	instance_destroy();
 }
 #endregion

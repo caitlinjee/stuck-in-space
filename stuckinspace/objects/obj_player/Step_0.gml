@@ -70,6 +70,11 @@ else image_xscale = 1;
 #region
 shootKey = mouse_check_button(mb_left);
 if (shootKey) && (cooldown < 1) {
+	
+	//play the sound
+	obj_sound_manager.astroShoot = true;
+
+	
 	var _xOffset = lengthdir_x( weaponLength + weaponOffsetDist, aimDir );
 	var _yOffset = lengthdir_y(weaponLength + weaponOffsetDist, aimDir );
 	instance_create_layer(x + _xOffset, y + _yOffset, "Bullets_Layer", obj_bullet);

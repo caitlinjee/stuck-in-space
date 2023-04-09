@@ -27,6 +27,7 @@ if (cooldown < 1) {
 			   speed = 8;
 			}
 		}
+		obj_sound_manager.alienShoot = true;
 		cooldown = 150;
 	}
 } else if bbox_right > _camLeft && bbox_left < _camRight && bbox_bottom >_camTop && bbox_top <_camBottom {

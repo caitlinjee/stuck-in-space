@@ -13,6 +13,8 @@ if place_meeting(x, y, obj_player) {
 	_collected.towrite = "Fire rate increased!";
 	_collected.write_height= 100;
 	
+	obj_sound_manager.gunCollected = true;
+	
 	//destroy self 
 	instance_destroy();
 }
