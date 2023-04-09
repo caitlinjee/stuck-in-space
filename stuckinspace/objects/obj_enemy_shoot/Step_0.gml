@@ -20,6 +20,7 @@ if (cooldown < 1) {
 		   direction = point_direction(x, y, obj_player.x, obj_player.y); // Give the bullet a direction
 		   speed = 7;
 		}
+		obj_sound_manager.alienShoot = true;
 		cooldown = 80;
 	}
 } else if bbox_right > _camLeft && bbox_left < _camRight && bbox_bottom >_camTop && bbox_top <_camBottom {

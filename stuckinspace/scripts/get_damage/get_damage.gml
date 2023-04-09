@@ -89,6 +89,7 @@ function get_damage(_damaged_obj, _iframes = false) {
 		
 			// set iframes if hit
 			if _iframes == true && _hitConfirm {
+				obj_sound_manager.astroHit = true;
 				iframeTimer = 90;
 			}
 		

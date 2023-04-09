@@ -8,7 +8,8 @@ alpha = clamp ( alpha, 0, 1);
 //restart
 if mouse_check_button(mb_left) && alpha >= 1 {
 	instance_destroy(obj_player);
-	instance_destroy(obj_hud);
+	instance_destroy(obj_hud);	
+	instance_destroy(obj_sound_manager);
 	room_goto(rm_menu);
 	global.thescore = 0;
 	
