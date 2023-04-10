@@ -9,7 +9,6 @@ if instance_exists(obj_player) {
 	playerHp = 0;
 }
 
-
 if global.enemyRoomMax - global.enemyKillCount == 0 {
 
 	if room != rm_boss {
