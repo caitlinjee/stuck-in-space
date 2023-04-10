@@ -12,12 +12,12 @@ if instance_exists(obj_player) {
 
 if global.enemyRoomMax - global.enemyKillCount == 0 {
 
-	if room == rm_boss {
+	if room != rm_boss {
 		//create thenext room object
 		instance_create_depth (0, 0, -10000, obj_next_arrow);
 	}
 	
-	if room != rm_boss {
+	if room == rm_boss {
 		//create congrat
 		instance_create_depth (0, 0, -10000, obj_congrats);
 	}
