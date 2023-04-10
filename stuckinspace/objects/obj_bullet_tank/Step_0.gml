@@ -1,11 +1,24 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(global.pause) exit;
+//if(global.pause) exit;
+
+
 //move
 xspd = lengthdir_x( spd, dir );
 yspd = lengthdir_y( spd, dir );
-x += xspd;
-y += yspd;
+
+if (global.pause) {
+	speed = 0;	
+	exit;
+}
+
+if (!global.pause) {
+	speed = oriSpd;
+	direction = oriDir;
+	x += xspd;
+	y += yspd;
+	
+}
 
 //cleanup
 

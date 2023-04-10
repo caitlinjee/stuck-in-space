@@ -20,7 +20,9 @@ if (cooldown < 1) {
 		with instance_create_layer(x, y, "Bullets_Layer", obj_bullet_enemy) 
 		{
 		   direction = point_direction(x, y, obj_player.x, obj_player.y); // Give the bullet a direction
+		   oriDir = point_direction(x, y, obj_player.x, obj_player.y);
 		   speed = 7;
+		   oriSpd = 7;
 		}
 		obj_sound_manager.alienShoot = true;
 		cooldown = 80;
