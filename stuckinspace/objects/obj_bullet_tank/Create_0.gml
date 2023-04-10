@@ -6,6 +6,9 @@ spd = 2.5;
 xspd = 0;
 yspd = 0;
 
+oriSpd = 0;
+oriDir = 0;
+
 maxDist = 600;
 destroy = false;
 

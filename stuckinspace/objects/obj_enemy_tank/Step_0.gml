@@ -26,7 +26,9 @@ if (cooldown < 1) {
 			with instance_create_layer(x, y, "Bullets_Layer", obj_bullet_tank) 
 			{
 			   direction = point_direction(x, y, obj_player.x, obj_player.y) - _spread/2 + _spread_div * i; // Give the bullet a direction
+			   oriDir =  point_direction(x, y, obj_player.x, obj_player.y) - _spread/2 + _spread_div * i;
 			   speed = 8;
+			   oriSpd = 8;
 			}
 		}
 		obj_sound_manager.alienShoot = true;
