@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //sprite control
-centerYOffset = 20; //modify this 60?
+centerYOffset = 10; //modify this 60?
 centerY = y + centerYOffset; //set in step 
 weaponOffsetDist = 6;
 aimDir = 0;

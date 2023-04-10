@@ -22,7 +22,7 @@ draw_set_alpha( alpha );
 
 //"game over"
 var _gameoverOffset = -32;
-draw_text_transformed ( _camX + _camW/2, _camY + _camH/2 + _gameoverOffset, "Congratulations!", 4, 4, 0 );
+draw_text_transformed ( _camX + _camW/2, _camY + _camH/2 + _gameoverOffset, "Congratulations!", 4, 4, 0);
 
 //"press shoot to restart"
 var _restartOffset = 80;

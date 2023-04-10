@@ -19,7 +19,8 @@ if global.enemyRoomMax - global.enemyKillCount == 0 {
 	
 	if room == rm_boss {
 		//create congrat
-		instance_create_depth (0, 0, -10000, obj_congrats);
+		//instance_create_depth (0, 0, -10000, obj_congrats);
+		room_goto(rm_congrats);
 	}
 
 }
