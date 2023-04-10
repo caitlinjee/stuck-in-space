@@ -18,8 +18,6 @@ if (!global.pause) {
 	
 }
 
-x += xspd;
-y += yspd;
 
 depth = -y - 50;
 

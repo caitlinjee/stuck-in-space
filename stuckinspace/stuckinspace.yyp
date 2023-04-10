@@ -173,7 +173,6 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
-    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"lvl0","path":"rooms/lvl0/lvl0.yy",},},
     {"roomId":{"name":"lvl1","path":"rooms/lvl1/lvl1.yy",},},
     {"roomId":{"name":"lvl2","path":"rooms/lvl2/lvl2.yy",},},
@@ -182,6 +181,7 @@
     {"roomId":{"name":"rm_boss","path":"rooms/rm_boss/rm_boss.yy",},},
     {"roomId":{"name":"rm_help","path":"rooms/rm_help/rm_help.yy",},},
     {"roomId":{"name":"rm_congrats","path":"rooms/rm_congrats/rm_congrats.yy",},},
+    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"todelete","path":"rooms/todelete/todelete.yy",},},
     {"roomId":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},},
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
