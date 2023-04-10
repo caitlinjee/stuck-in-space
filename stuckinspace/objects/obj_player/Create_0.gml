@@ -17,7 +17,7 @@ sprite[1] = spr_player_2;
 cooldown = 0;
 firerate = 33;
 
-max_hp = 15;
+max_hp = 1;
 current_hp = max_hp;
 
 moveDir = 0;
