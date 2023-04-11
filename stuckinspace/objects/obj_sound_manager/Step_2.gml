@@ -94,3 +94,13 @@ if nextRoom == true {
 	//reset variable
 	nextRoom = false;
 }
+
+// game ended 
+if shipCollected == true {
+				//play sound
+	var _snd = audio_play_sound(snd_congrats, 5, false);
+	audio_sound_gain( _snd, 1, 0);
+	
+	//reset variable
+	shipCollected = false;
+}

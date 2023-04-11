@@ -11,6 +11,7 @@ astroHit = false;
 gunCollected = false;
 heartCollected = false;
 nextRoom = false;
+shipCollected = false;
 
 bgm = true;
 bgm_boss = false;

@@ -109,8 +109,12 @@ if ((current_hp) <= 0) {
 	//var _health_chance = irand(0,100);
 	//if _health_chance <= 20 ? instance_create_depth (x, y, depth, obj_health);
 	
-	if global.enemyRoomMax - global.enemyKillCount == 0 {
+	if global.enemyRoomMax - global.enemyKillCount == 0 && room != rm_boss {
 		instance_create_depth (x, y, depth, obj_damage);
+	}
+	
+	if global.enemyRoomMax - global.enemyKillCount == 0 && room == rm_boss {
+		instance_create_depth (x, y, depth, obj_ship);
 	}
 	
 	obj_sound_manager.alienDie = true;

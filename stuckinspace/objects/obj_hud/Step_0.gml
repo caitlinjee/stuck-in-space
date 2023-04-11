@@ -16,10 +16,10 @@ if global.enemyRoomMax - global.enemyKillCount == 0 {
 		instance_create_depth (0, 0, -10000, obj_next_arrow);
 	}
 	
-	if room == rm_boss {
+	else if room == rm_boss {
 		//create congrat
 		//instance_create_depth (0, 0, -10000, obj_congrats);
-		room_goto(rm_congrats);
+		/*room_goto(rm_congrats);
 		if audio_is_playing(snd_bgm_boss) {
 			audio_stop_sound(snd_bgm_boss);
 		}
@@ -30,7 +30,10 @@ if global.enemyRoomMax - global.enemyKillCount == 0 {
 	
 		instance_destroy(obj_player);
 		instance_destroy(obj_hud);
-		instance_destroy(obj_sound_manager);
+		instance_destroy(obj_sound_manager);*/
+		
+		instance_create_depth (0, 0, -10000, obj_final_ship_collect);
+		
 	}
 
 }
