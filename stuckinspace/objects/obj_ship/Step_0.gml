@@ -8,7 +8,8 @@ event_inherited();
 if place_meeting(x, y, obj_player) {
 	
 	// go to congrats
-		room_goto(rm_congrats);
+		instance_create_depth(0, 0, -9999, obj_fade);
+		room_goto(rm_win_anim);
 		if audio_is_playing(snd_bgm_boss) {
 			audio_stop_sound(snd_bgm_boss);
 		}

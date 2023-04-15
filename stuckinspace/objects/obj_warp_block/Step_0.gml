@@ -11,5 +11,4 @@ if global.enemyRoomMax - global.enemyKillCount == 0 && place_meeting(x, y, obj_p
 	room_goto(target_rm); 
 	obj_player.x = target_x;
 	obj_player.y = target_y;
-
 }

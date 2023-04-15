@@ -1,7 +1,7 @@
 //pause = !pause;
 
 if(room == rm_menu || room == rm_credits || room == rm_game_over || room == rm_congrats
-|| room == rm_help) exit
+|| room == rm_help || room == rm_win_anim) exit
 
 	
 	var _camX = camera_get_view_x( view_camera [0] );
@@ -24,9 +24,9 @@ if(room == rm_menu || room == rm_credits || room == rm_game_over || room == rm_c
 }
 else{
 	draw_set_alpha(1);
-	global.continue_btn = instance_create_depth( _camX + _camW/2 - 150,  _camY + _camH/2 - 100, -20000, obj_btn_continue);
-	global.help_btn = instance_create_depth( _camX + _camW/2 - 150,  _camY + _camH/2  + 100, -20000, obj_btn_help_pause_screen);
-	global.obj_btn_main = instance_create_depth( _camX + _camW/2 - 150,  _camY + _camH/2 + 300, -20000, obj_btn_back_to_main);
+	global.continue_btn = instance_create_depth( _camX + _camW/2 - 150,  _camY + _camH/2 - 150, -20000, obj_btn_continue);
+	global.help_btn = instance_create_depth( _camX + _camW/2 - 150,  _camY + _camH/2  + 25, -20000, obj_btn_help_pause_screen);
+	global.obj_btn_main = instance_create_depth( _camX + _camW/2 - 150,  _camY + _camH/2 + 200, -20000, obj_btn_back_to_main);
 	
 global.pause = !global.pause;
 

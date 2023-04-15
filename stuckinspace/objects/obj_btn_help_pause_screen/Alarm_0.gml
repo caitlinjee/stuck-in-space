@@ -15,8 +15,8 @@ global.help_screen = true
 instance_deactivate_object(global.continue_btn)
 instance_deactivate_object(global.help_btn)
 instance_deactivate_object(global.obj_btn_main)
-global.help_obj = instance_create_depth(_camX + 240, _camY + 100, -20000, obj_how_to_play);
-global.back_btn = instance_create_depth(_camX+ 70, _camY+ 70, -20000, obj_btn_help_pause_screen_back);
+global.help_obj = instance_create_depth(_camX + 180, _camY + 55, -20000, obj_how_to_play);
+global.back_btn = instance_create_depth(_camX+ 50, _camY+ 50, -20000, obj_btn_help_pause_screen_back);
 
 
 
